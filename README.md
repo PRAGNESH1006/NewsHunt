@@ -68,3 +68,60 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- 1 -->
+<!-- <Routes>
+        <div>
+          {/* <Navbar title="NewsHunt"/> */}
+
+          <Route
+            path="/general"
+            element={<News pageSize={9} country="in" category="general" />}
+          />
+
+          <Route
+            path="/technology"
+            element={<News pageSize={9} country="in" category="technology" />}
+          />
+          <Route
+            path="/science"
+            element={<News pageSize={9} country="in" category="science" />}
+          />
+          <Route
+            path="/health"
+            element={<News pageSize={9} country="in" category="health" />}
+          />
+          <Route
+            path="/business"
+            element={<News pageSize={9} country="in" category="business" />}
+          />
+          <Route
+            path="/sports"
+            element={<News pageSize={9} country="in" category="sports" />}
+          />
+          <Route
+            path="/entertainment"
+            element={
+              <News pageSize={9} country="in" category="entertainment" />
+            }
+          />
+        </div>
+      </Routes> -->
+
+<!-- 2 -->
+<!-- <div >
+        <Router>
+       {/* <Navbar title="NewsHunt"/> */}
+       
+       <Switch>
+          <Route path="/general"><News pageSize={9} country="in" category="general" /></Route>
+          <Route path="/technology"><News pageSize={9} country="in" category="technology" /></Route>
+          <Route path="/science"><News pageSize={9} country="in" category="science" /></Route>
+          <Route path="/health"><News pageSize={9} country="in" category="health" /></Route>
+          <Route path="/business"><News pageSize={9} country="in" category="business" /></Route>
+          <Route path="/sports"><News pageSize={9} country="in" category="sports" /></Route>
+          <Route path="/technology"><News pageSize={9} country="in" category="technology" /></Route>
+
+        </Switch>
+       </Router>
+      </div> -->
